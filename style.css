@@ -18,6 +18,12 @@ h1 {
     text-transform: uppercase;
     margin: 0;
 }
+h3 {
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin: 0;
+}
 
 h2 {
     font-weight: 400;
@@ -34,11 +40,11 @@ img {
 main {
     max-width: 900px;
     margin: auto;
-    box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1), -30px 0px 40px rgba(0, 0, 0, 0.1)
+    box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1), -30px 0px 40px rgba(8, 5, 5, 0.1)
 }
 
 #landing {
-    background: #002e2d;
+    background: #011717;
     
 }
 
@@ -54,19 +60,19 @@ main {
 }
 
 #landing-text h2 {
-    color: #f1e9e9;
+    color: #ffffff;
 }
 
 #landing-image {
-    
-    background:rgb(2, 28, 38);
-    background-position:cover;
-    background-size:cover;
+    background: url(https://images.unsplash.com/photo-1696384314432-1fe5cd33baab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1936&q=80);
+    background-position: cover;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 50vh;
     flex: 0 1 60vw;
     margin: 0;
 }
+
 
 .btn {
     padding: 1rem 2rem;
@@ -81,6 +87,7 @@ main {
 
 .btn:hover {
     background: #ecf1f0;
+    
 }
 
 #header {
@@ -160,6 +167,8 @@ footer p a {
     font-size: 14px;
     position:relative;
 }
+
+
 .social-links {
     margin-top: 20px;
 }
