@@ -188,3 +188,8 @@ footer p a {
 .social-links a:hover {
     transform: scale(1.4);
 }
+#view-work:hover{
+    color:black;
+    background-color: rgb(129, 169, 179);
+
+}
