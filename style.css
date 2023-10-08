@@ -154,20 +154,6 @@ footer p a {
         padding: 6% 12%;
     }
 }
-/* Style for the download button */
-.download-btn {
-    display: inline-block;
-    margin-left: 10px;
-    padding: 5px 10px;
-    background-color: #1b1313;
-    border: 3px solid #ccc;
-    border-radius: 5px;
-    text-decoration: none;
-    color: #e0d1d1;
-    font-size: 14px;
-    position:relative;
-}
-
 
 .social-links {
     margin-top: 20px;
